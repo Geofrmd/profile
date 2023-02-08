@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.card {
+  background: #F2E9E4;
+  border-radius: 4px;
+  box-shadow: 0px 4px 10px rgba(49, 49, 49, 0.152);
+  padding: 40px;
+  margin: 20px 0px;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400; /* if you want the light version */
+  background-color: #C9ADA7;
+  color: #4A4E69;
+  line-height: 1.6;
+  text-align: center;
+}
+
+h1,
+h2 {
+  color: #4A4E69;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  color: #9A8C98;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  line-height: 1.6;
+  text-decoration: none;
+}
+
+.list-inline i {
+  font-size: 25px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.button {
+  background-color: #4A4E69;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 20px 0px;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  line-height: 1.6;
+  text-decoration: none;
+}
+.button:hover {
+  color: #C9ADA7;
+}
+
+.social {
+  color: #C9ADA7;
+}
+
+.social:hover {
+  color: #4A4E69;
+}
+
+img {
+clip-path:ellipse(45% 50%);
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
